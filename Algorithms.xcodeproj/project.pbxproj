@@ -14,6 +14,8 @@
 		9CA364A61D078885000EE0BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA364A41D078885000EE0BD /* LaunchScreen.storyboard */; };
 		9CA364B11D078885000EE0BD /* AlgorithmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA364B01D078885000EE0BD /* AlgorithmsTests.swift */; };
 		9CA364BC1D078885000EE0BD /* AlgorithmsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA364BB1D078885000EE0BD /* AlgorithmsUITests.swift */; };
+		9CA364CA1D078893000EE0BD /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA364C91D078893000EE0BD /* Stack.swift */; };
+		9CA364CC1D0788C6000EE0BD /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA364CB1D0788C6000EE0BD /* Queue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9CA364B71D078885000EE0BD /* AlgorithmsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA364BB1D078885000EE0BD /* AlgorithmsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsUITests.swift; sourceTree = "<group>"; };
 		9CA364BD1D078885000EE0BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CA364C91D078893000EE0BD /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		9CA364CB1D0788C6000EE0BD /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				9CA364A21D078885000EE0BD /* Assets.xcassets */,
 				9CA364A41D078885000EE0BD /* LaunchScreen.storyboard */,
 				9CA364A71D078885000EE0BD /* Info.plist */,
+				9CA364C91D078893000EE0BD /* Stack.swift */,
+				9CA364CB1D0788C6000EE0BD /* Queue.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CA3649E1D078885000EE0BD /* ViewController.swift in Sources */,
+				9CA364CA1D078893000EE0BD /* Stack.swift in Sources */,
 				9CA3649C1D078885000EE0BD /* AppDelegate.swift in Sources */,
+				9CA364CC1D0788C6000EE0BD /* Queue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
